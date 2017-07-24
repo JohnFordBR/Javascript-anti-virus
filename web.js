@@ -1,5 +1,5 @@
 const fs = require('fs');
-const direct='./test_malware';
+const direct='./test_malvare';
 let md5 = require("./md5")
 let malware = null;
 let wmcf = null;
