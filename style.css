@@ -15,7 +15,7 @@
     border: 2px solid red;
     box-sizing: border-box;
     float: left;
-    background-color: #35CC5B;
+    background-color: #41C19D;
   }
 header
   {
@@ -29,12 +29,13 @@ header
    }
 main
   {
+   padding-left: 462px;
     border: 2px solid blue;
     box-sizing: border-box;
     height:495px;
     float: left;
     width: 1100px;
-
+    background-image: url('back.jpg');
   }
 .mainav ul
   {
@@ -66,7 +67,7 @@ main
   }
 .slogan
   {
-    background-color: #35CC5B;
+    background-color: #41C19D;
     height: inherit;
     width: 40%;
     border: 2px solid red;
@@ -78,7 +79,7 @@ main
   }
 .ucpmain
   {
-    background-color: #35CC5B;
+    background-color: #41C19D;
     height: inherit;
     width: 60%;
     border: 2px solid red;
@@ -120,7 +121,7 @@ main
     stroke:black;
     stroke-linecap: round;
     stroke-width: 5;
-    transition: stroke 0.5s , fill 0.5s;
+    transition: stroke 0.5s , fill 1s;
 
   }
 .mainav ul li:hover  p
@@ -144,4 +145,51 @@ main
   {
     fill:white;
     stroke:white;
+  }
+.mainmid
+  {
+    position: relative;
+    white-space: nowrap;
+    height: inherit;
+    width: 30%;
+    border: 2px solid;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+.mainmid img
+  {
+  height: 180px;
+  width: 100%;
+  }
+.mainmid p
+  {
+    position: absolute;
+    left: -35px;
+    font-size: 27px;
+  }
+.mainmid button
+  {
+    border-radius: 5px;
+    background-color: #41C19D;
+    border-style: solid;
+    border-color:transparent;
+    margin-top: 70px;
+    height: 35px;
+    transition: transform 0.1s;
+    box-shadow: 0px 5px 0px 0px #647A8A;
+  }
+.mainmid button span
+  {
+    color: #3A5569;
+    font-size:18px;
+  }
+.mainmid button::-moz-focus-inner
+  {
+    border: 0;
+  }
+.mainmid button:active
+  {
+    transform:translateY(5px);
+    box-shadow: 0px 2px 0px 0px #647A8A;
   }
