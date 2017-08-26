@@ -2,6 +2,7 @@
     display: none;
 }*/
 *{margin: 0;padding: 0;}
+p{font-family: "Times New Roman", Times, serif;}
 .web
   {
     height:600px;
@@ -35,7 +36,7 @@ main
     height:495px;
     float: left;
     width: 1100px;
-    background-image: url('back.jpg');
+    background-image: url('images/back.jpg');
   }
 .mainav ul
   {
@@ -164,9 +165,9 @@ main
   }
 .mainmid p
   {
-    position: absolute;
+    position: relative;
     left: -35px;
-    font-size: 27px;
+    font-size: 35px;
   }
 .mainmid button
   {
