@@ -2,7 +2,7 @@
     display: none;
 }*/
 *{margin: 0;padding: 0;}
-p{font-family: "Times New Roman", Times, serif;}
+p,h1{font-family: Verdana,Geneva,sans-serif;}
 .web
   {
     height:600px;
@@ -166,7 +166,7 @@ main
 .mainmid p
   {
     position: relative;
-    left: -35px;
+    left: -74px;
     font-size: 35px;
   }
 .mainmid button
